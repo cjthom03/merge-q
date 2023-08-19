@@ -14,6 +14,8 @@ parserOptions:
   sourceType: module
   files: ['**/*.ts']
   ignores: ['**/*.config.js']
+  extends:
+    - prettier
 rules:
   space-before-function-paren: off
   "@typescript-eslint/space-before-function-paren": off
