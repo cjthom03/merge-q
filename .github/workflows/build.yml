@@ -17,8 +17,8 @@ jobs:
         with:
           node-version: '20.3.1'
       - name: Install Dependencies
-        run: npm install
+        run: yarn install
       - name: Building
-        run: npm run build
+        run: yarn build
       - name: Running that sweet sweet test suite
-        run: npm test src/index.test.ts
+        run: yarn test src/index.test.ts
