@@ -10,4 +10,3 @@ module.exports = {
         strictMode: true,
     }
 };
-// project: ['<rootDir>/tsconfig.json'],

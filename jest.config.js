@@ -2,6 +2,7 @@
 export default {
   preset: 'ts-jest',
   testEnvironment: 'node',
-  testMatch: ['<rootDir>/**/*.test.ts'],
-  testIgnorePatterns: ['<rootDir>/node_modules/', '<rootDir>/dist/'],
+  testMatch: ['<rootDir>/src/**/*.test.ts'],
+  modulePaths: ["<rootDir>/src/"],
+  moduleFileExtensions: ["ts", "js"],
 };

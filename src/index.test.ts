@@ -1,4 +1,4 @@
-import { sum } from './index.js'
+import { sum } from './index'
 
 describe('a test', () => {
   it('should pass', () => {
